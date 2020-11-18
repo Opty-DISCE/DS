@@ -30,7 +30,7 @@ The overall system is composed of multiple modules.
 The main server is the _silo_.
 The clients are the _eye_ and _spotter_.
 
-See the [project statement](https://github.com/tecnico-distsys/Sauron/blob/master/README.md) for a full description of the domain and the system.
+See the [project statement](https://github.com/Opty-Forks/Sauron) for a full description of the domain and the system.
 
 ### Prerequisites
 

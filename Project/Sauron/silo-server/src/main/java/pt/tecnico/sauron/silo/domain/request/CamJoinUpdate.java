@@ -7,19 +7,19 @@ import pt.tecnico.sauron.silo.replica.VecTimestamp;
 
 public class CamJoinUpdate extends Update {
 
-    private final Camera camera;
+  private final Camera camera;
 
-    public CamJoinUpdate(Integer ID, VecTimestamp prevTS, Camera camera) {
-        super(Type.CAM_JOIN, ID, prevTS);
-        this.camera = camera;
-    }
+  public CamJoinUpdate(Integer ID, VecTimestamp prevTS, Camera camera) {
+    super(Type.CAM_JOIN, ID, prevTS);
+    this.camera = camera;
+  }
 
-    public Camera getCamera() {
-        return camera;
-    }
+  public Camera getCamera() {
+    return camera;
+  }
 
-    @Override
-    public void execute(Sauron sauron) throws SauronException {
-        sauron.cam_join(camera);
-    }
+  @Override
+  public void execute(Sauron sauron) throws SauronException {
+    sauron.cam_join(camera);
+  }
 }

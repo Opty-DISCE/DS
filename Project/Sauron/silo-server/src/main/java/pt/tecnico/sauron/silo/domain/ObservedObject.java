@@ -4,22 +4,26 @@ import pt.tecnico.sauron.silo.exceptions.SauronException;
 
 public abstract class ObservedObject {
 
-    public enum Type { CAR, PERSON }
-    private final Type type;
+  public enum Type {
+    CAR,
+    PERSON
+  }
 
-    public ObservedObject(Type type) {
-        this.type = type;
-    }
+  private final Type type;
 
-    public Type getType(){
-        return type;
-    }
+  public ObservedObject(Type type) {
+    this.type = type;
+  }
 
-    public abstract void checkId(String id) throws SauronException;
+  public Type getType() {
+    return type;
+  }
 
-    @Override
-    public abstract int hashCode();
+  public abstract void checkId(String id) throws SauronException;
 
-    @Override
-    public abstract boolean equals(Object obj);
+  @Override
+  public abstract int hashCode();
+
+  @Override
+  public abstract boolean equals(Object obj);
 }

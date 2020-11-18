@@ -15,11 +15,11 @@ Sistemas Distribuídos 2019-2020, Segundo Semestre
 
 ## Melhorias da Primeira Parte
 
-- Corrigimos no `spotter` a ordenação das `Observações` por `IDs` para `Persons` no comando `spot` -> [Commit](https://github.com/tecnico-distsys/T18-Sauron/commit/3ab5ad9ea5e241dd4caebdf4ee85866c1b3ea635)
-- Adicionámos a restrição dos nomes das `Cãmeras` serem alfa-numéricos e adicionámos o Teste correspondente a esta restrição -> [Commit](https://github.com/tecnico-distsys/T18-Sauron/commit/efdc113ef2399bf885883a99895e16b96d801c41)
+- Corrigimos no `spotter` a ordenação das `Observações` por `IDs` para `Persons` no comando `spot`.
+- Adicionámos a restrição dos nomes das `Cãmeras` serem alfa-numéricos e adicionámos o Teste correspondente a esta restrição.
 - De modo a abstrairmo-nos do protocolo de comunicação utilizado:
-  - Passámos a lançar exceções `SauronException` em vez de `StatusRunTimeException` no `Sauron` -> [Commit](https://github.com/tecnico-distsys/T18-Sauron/commit/efdc113ef2399bf885883a99895e16b96d801c41)
-  - Passámos a utilizar Classes de domínio em vez de utilizar Classes do `GRPC` -> [Commit](https://github.com/tecnico-distsys/T18-Sauron/commit/e4d7f783a04ef1034e546e342125cd80508e4f2d)
+  - Passámos a lançar exceções `SauronException` em vez de `StatusRunTimeException` no `Sauron`.
+  - Passámos a utilizar Classes de domínio em vez de utilizar Classes do `GRPC`.
 
 ## Modelo de Faltas
 
